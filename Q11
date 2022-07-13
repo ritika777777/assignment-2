@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num,n;
+    printf("enter a number\n");
+    scanf("%d%d",&num,&n);
+    printf("enter a digit that you want to append\n");
+    num=num*10+n;
+    printf("%d\n",num);
+    getch();
+}
