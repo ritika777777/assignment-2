@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,n,rem;
+    printf("enter three digit number");
+    scanf("%d",&n);
+    rem=n%10;
+    a=rem*100+n/10;
+    printf("after rotation %d",a,n);
+    return 0;
+
+
+}
