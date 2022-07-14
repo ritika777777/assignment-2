@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    float USD,INR;
+    printf("enter rupees");
+    scanf("%f",&INR);
+    USD=INR/76.23;
+    printf("In USD: %f",USD);
+    getch();
+
+}
